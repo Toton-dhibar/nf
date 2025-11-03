@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/xhttp/:path*",
-      "destination": "https://ad.sdupdates.news:443/xhttp:path*"
+      "destination": "https://ad.sdupdates.news/xhttp:path*"
     }
   ],
   "headers": [
