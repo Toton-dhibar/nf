@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/culturavpn/:path*",
+      "destination": "http://ad.sdupdates.news:443/xhttp:path*"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/xhttp/:path*",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store, max-age=0, must-revalidate" }
+      ]
+    }
+  ]
+}
